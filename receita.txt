@@ -1,0 +1,10 @@
+Recieta Gobarber
+
+## dependencies
+
+- express
+
+-- DEV
+--- devDependencies
+--- nodemon
+
