@@ -1,10 +1,8 @@
 Recieta Gobarber
 
-## dependencies
 
-- express
+## sequelize commands
 
--- DEV
---- devDependencies
---- nodemon
+- yarn sequelize migration:create --name=create-users
+= yarn sequelize db:migrate
 
