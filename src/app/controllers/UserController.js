@@ -21,6 +21,12 @@ class UserController {
       providers,
     });
   }
+
+  async update(req, res) {
+    res.json({
+      ok: true,
+    });
+  }
 }
 
 export default new UserController();
