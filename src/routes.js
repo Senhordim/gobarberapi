@@ -30,8 +30,9 @@ routes.put('/users', UserController.update);
 routes.get('/providers', ProvidersController.index);
 
 // appointment
-routes.post('/appointments', AppointmentController.store);
 routes.get('/appointments', AppointmentController.index);
+routes.post('/appointments', AppointmentController.store);
+routes.delete('/appointments/:id', AppointmentController.delete);
 
 // Schedule
 routes.get('/schedule', ScheduleController.index);
